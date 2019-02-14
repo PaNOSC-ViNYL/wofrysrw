@@ -6,8 +6,8 @@ from syned.beamline.shape import Ellipse, Rectangle, Circle, Plane
 from wofrysrw.beamline.optical_elements.srw_optical_element import SRWOpticalElement
 from wofrysrw.propagator.wavefront2D.srw_wavefront import WavefrontPropagationParameters
 
-from srwlib import SRWLOptCryst
-from srwlib import srwl, srwl_opt_setup_surf_height_1d, srwl_opt_setup_surf_height_2d, srwl_uti_read_data_cols
+from vinyl_srw.srwlib import SRWLOptCryst
+from vinyl_srw.srwlib import srwl, srwl_opt_setup_surf_height_1d, srwl_opt_setup_surf_height_2d, srwl_uti_read_data_cols
 
 from wofrysrw.beamline.optical_elements.mirrors.srw_mirror import Orientation, TreatInputOutput, ApertureShape, SimulationMethod
 

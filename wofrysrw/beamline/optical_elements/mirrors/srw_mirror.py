@@ -7,8 +7,8 @@ from wofrysrw.beamline.optical_elements.srw_optical_element import SRWOpticalEle
 from wofrysrw.propagator.wavefront2D.srw_wavefront import WavefrontPropagationParameters
 from wofrysrw.beamline.optical_elements.absorbers.srw_aperture import SRWAperture
 
-from srwlib import SRWLOptC, SRWLOptMir
-from srwlib import srwl, srwl_opt_setup_surf_height_1d, srwl_opt_setup_surf_height_2d, srwl_uti_read_data_cols
+from vinyl_srw.srwlib import SRWLOptC, SRWLOptMir
+from vinyl_srw.srwlib import srwl, srwl_opt_setup_surf_height_1d, srwl_opt_setup_surf_height_2d, srwl_uti_read_data_cols
 
 
 class ApertureShape:
@@ -151,7 +151,7 @@ class SRWMirror(Mirror, SRWOpticalElementWithAcceptanceSlit):
         mirror = self.get_SRWLOptMir(nvx, nvy, nvz, tvx, tvy, x, y, ap_shape)
 
         if hasattr(self, "reflectivity_data"):
-            from srwlib import array as srw_array
+            from vinyl_srw.srwlib import array as srw_array
 
             try:
                 reflectivity_data = srw_array('d', self.reflectivity_data)

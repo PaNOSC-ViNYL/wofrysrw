@@ -1,4 +1,4 @@
-from srwlib import SRWLMagFldM
+from vinyl_srw.srwlib import SRWLMagFldM
 
 from syned.storage_ring.magnetic_structures.bending_magnet import BendingMagnet
 from wofrysrw.storage_ring.srw_magnetic_structure import SRWMagneticStructure

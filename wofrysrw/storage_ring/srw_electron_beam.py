@@ -1,6 +1,6 @@
 import numpy
 
-from srwlib import SRWLPartBeam
+from vinyl_srw.srwlib import SRWLPartBeam
 
 from syned.storage_ring.electron_beam import ElectronBeam
 

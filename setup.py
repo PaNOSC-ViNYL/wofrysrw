@@ -54,7 +54,7 @@ INSTALL_REQUIRES = (
     'scipy',
     'syned>=1.0.11',
     'wofry>=1.0.17',
-    'oasys1-srwlib>=1.0.14'
+    'vinyl-srw>=1.0.1'
 )
 
 SETUP_REQUIRES = (

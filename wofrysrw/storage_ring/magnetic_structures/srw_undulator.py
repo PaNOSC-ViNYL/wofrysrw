@@ -1,4 +1,4 @@
-from srwlib import SRWLMagFldH, SRWLMagFldU
+from vinyl_srw.srwlib import SRWLMagFldH, SRWLMagFldU
 
 from syned.storage_ring.magnetic_structures.undulator import Undulator
 from wofrysrw.storage_ring.srw_magnetic_structure import SRWMagneticStructure

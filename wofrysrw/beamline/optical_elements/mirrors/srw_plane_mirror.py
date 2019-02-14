@@ -1,7 +1,7 @@
 from wofrysrw.beamline.optical_elements.mirrors.srw_mirror import SRWMirror, Orientation, SimulationMethod, TreatInputOutput
 from syned.beamline.shape import Plane
 
-from srwlib import SRWLOptMirPl
+from vinyl_srw.srwlib import SRWLOptMirPl
 
 class SRWPlaneMirror(SRWMirror):
     def __init__(self,
