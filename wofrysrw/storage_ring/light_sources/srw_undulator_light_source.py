@@ -1,6 +1,6 @@
 import numpy
 
-from srwlib import srwl
+from vinyl_srw.srwlib import srwl
 
 
 from wofrysrw.propagator.wavefront2D.srw_wavefront import WavefrontParameters

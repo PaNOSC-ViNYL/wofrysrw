@@ -9,7 +9,7 @@ from wofrysrw.propagator.wavefront2D.srw_wavefront import WavefrontPropagationPa
 from wofrysrw.propagator.wavefront2D.srw_wavefront import SRWWavefront
 from wofrysrw.propagator.propagators2D.srw_propagation_mode import SRWPropagationMode
 
-from srwlib import *
+from vinyl_srw.srwlib import *
 
 SRW_APPLICATION = "SRW"
 

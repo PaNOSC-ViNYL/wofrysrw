@@ -3,7 +3,7 @@ from wofrysrw.beamline.optical_elements.mirrors.srw_mirror import Orientation, A
 from wofrysrw.beamline.optical_elements.gratings.srw_grating import SRWGrating
 from syned.beamline.shape import Plane
 
-from srwlib import SRWLOptMirPl
+from vinyl_srw.srwlib import SRWLOptMirPl
 
 class SRWPlaneGrating(SRWGrating):
     def __init__(self,

@@ -6,7 +6,7 @@ from wofrysrw.beamline.optical_elements.srw_optical_element import SRWOpticalEle
 from wofrysrw.storage_ring.srw_light_source import SRWLightSource
 from wofrysrw.propagator.wavefront2D.srw_wavefront import WavefrontPropagationParameters, WavefrontPropagationOptionalParameters
 
-from srwlib import *
+from vinyl_srw.srwlib import *
 
 class Where:
     DRIFT_BEFORE = "before"
@@ -65,7 +65,7 @@ class SRWBeamline(Beamline, SRWObject):
         wavefront = data[0]
         is_multi_electron = data[1] == True
 
-        text_code  = "from srwlib import *\nfrom uti_plot import *\nimport numpy\n\n"
+        text_code  = "from vinyl_srw.srwlib import *\nfrom uti_plot import *\nimport numpy\n\n"
 
         if is_multi_electron: text_code += "#if not srwl_uti_proc_is_master(): exit()\n"
         else: text_code += "if not srwl_uti_proc_is_master(): exit()\n"

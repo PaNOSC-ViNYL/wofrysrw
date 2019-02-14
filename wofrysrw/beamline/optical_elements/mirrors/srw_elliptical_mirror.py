@@ -1,7 +1,7 @@
 from wofrysrw.beamline.optical_elements.mirrors.srw_mirror import SRWMirror, Orientation, SimulationMethod, TreatInputOutput
 from syned.beamline.shape import Ellipsoid
 
-from srwlib import SRWLOptMirEl
+from vinyl_srw.srwlib import SRWLOptMirEl
 
 class SRWEllipticalMirror(SRWMirror):
     def __init__(self,

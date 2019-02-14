@@ -3,7 +3,7 @@ from syned.beamline.shape import BoundaryShape, Rectangle, Ellipse
 
 from wofrysrw.beamline.optical_elements.srw_optical_element import SRWOpticalElement
 
-from srwlib import SRWLOptA
+from vinyl_srw.srwlib import SRWLOptA
 
 class SRWSlit(Slit, SRWOpticalElement):
     def __init__(self, name="Undefined", boundary_shape=BoundaryShape(), optical_element_displacement=None):

@@ -1,4 +1,4 @@
-from srwlib import array, SRWLMagFld3D, SRWLMagFldH, SRWLMagFldU
+from vinyl_srw.srwlib import array, SRWLMagFld3D, SRWLMagFldH, SRWLMagFldU
 
 from syned.storage_ring.magnetic_structures.wiggler import Wiggler
 from wofrysrw.storage_ring.srw_magnetic_structure import SRWMagneticStructure

@@ -1,6 +1,6 @@
 import numpy
 
-from srwlib import srwl
+from vinyl_srw.srwlib import srwl
 
 from syned.storage_ring.light_source import LightSource
 

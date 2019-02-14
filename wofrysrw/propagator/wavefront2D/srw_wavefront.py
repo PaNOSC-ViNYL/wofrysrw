@@ -1,4 +1,4 @@
-from srwlib import srwl, SRWLWfr, SRWLRadMesh, SRWLStokes, array as srw_array
+from vinyl_srw.srwlib import srwl, SRWLWfr, SRWLRadMesh, SRWLStokes, array as srw_array
 
 import copy
 import numpy

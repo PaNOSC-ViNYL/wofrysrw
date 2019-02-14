@@ -1,7 +1,7 @@
 from wofrysrw.beamline.optical_elements.srw_optical_element import SRWOpticalElement
 from syned.beamline.shape import Circle, Ellipse, Rectangle
 
-from srwlib import *
+from vinyl_srw.srwlib import *
 
 class PlaneOfFocusing:
     HORIZONTAL=1

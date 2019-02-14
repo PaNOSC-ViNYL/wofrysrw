@@ -1,7 +1,7 @@
 from wofrysrw.beamline.optical_elements.mirrors.srw_mirror import SRWMirror, Orientation, SimulationMethod, TreatInputOutput
 from syned.beamline.shape import Toroidal
 
-from srwlib import SRWLOptMirTor
+from vinyl_srw.srwlib import SRWLOptMirTor
 
 class SRWToroidalMirror(SRWMirror):
     def __init__(self,
